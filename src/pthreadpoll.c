@@ -1,8 +1,8 @@
 #include "pthreadpool.h"
 
+//偷懒了，这个看eventctl.h的解释
+pthread_pool_t thread_pool;
 extern pthread_mutex_t _loggerLock;
-
-pthread_pool_t *thread_pool;
 
 static int maxThreadLimited;
 

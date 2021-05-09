@@ -26,6 +26,5 @@
 
 extern pthread_mutex_t _loggerLock;
 extern event_tree_t *eventTree;
-extern pthread_pool_t *thread_pool;
-
+extern pthread_pool_t *thread_pool; 
 #endif

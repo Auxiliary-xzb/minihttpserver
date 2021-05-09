@@ -1,8 +1,6 @@
 #include "httptools.h"
 #include <sys/epoll.h>
 
-extern int _epollfd;
-
 static int hexit(char c);
 static const char *getContentType(const char *name);
 static void sendFile(int connfd, const char* filename);
